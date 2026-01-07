@@ -130,9 +130,9 @@ tr.recebido {
   td {
     font-size: 14px;
   }
-}
+} 
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .fornecedor {
     padding: 15px;
   }
@@ -146,7 +146,7 @@ tr.recebido {
   input[type="number"] {
     width: 80px;
   }
-} */
+}
 
 .footer {
   margin-top: 20px;
