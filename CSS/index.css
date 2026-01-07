@@ -137,11 +137,11 @@ input[type="checkbox"] {
 }
 
 tr.recebido {
-  background-color: #52f07a;
+  background-color: #9df4b3;
 }
 
 .input-ok {
-  background-color: #52f07a;
+  background-color: #9df4b3;
   border: 1px solid #28a745; 
 }
 
@@ -155,12 +155,12 @@ tr.recebido {
 
 .status.pendente {
   background: #ee5f6b;
-  color: #721c24;
+  color: #fbfafa;
 }
 
 .status.ok {
-  background:  #52f07a;
-  color: #04b631;
+  background:  #26dc53;
+  color: #181a19;
 }
 
 
