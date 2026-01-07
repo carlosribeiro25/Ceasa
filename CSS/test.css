@@ -4,38 +4,50 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* =====================
+   BASE (MOBILE FIRST)
+===================== */
 body {
   margin: 0;
   padding: 10px;
   background: #f7f7f7;
   font-size: 16px;
 }
+
 .title {
   font-size: large;
   font-weight: 700;
 }
 
+/* ===== HEADER ===== */
 .content-head {
+  background: #f7f7f7;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.5rem;          /* corrigido */
   padding: 8px;
-  height: auto; 
+  border-radius: 8px;
+  margin-bottom: 8px;
+  height: auto;         /* REMOVE altura fixa */
 }
 
 .date {
-  margin-top: 0rem;
-  width: 100%;
+  width: 100%;          /* mobile friendly */
   padding: 8px;
-  font-size: 16px;
-  border: none;
+  font-size: 16px;      /* evita zoom iOS */
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }
+
+/* ===== CONTAINER ===== */
 .fornecedor {
   background: #f1efef;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+/* ===== TABLE (MOBILE) ===== */
 table {
   width: 100%;
   display: block;
@@ -46,6 +58,7 @@ table {
   -webkit-overflow-scrolling: touch;
 }
 
+/* ===== CELLS ===== */
 th,
 td {
   padding: 10px 6px;
@@ -54,12 +67,20 @@ td {
   font-size: 15px;
 }
 
+td:first-child,
+th:first-child {
+  text-align: left;
+  min-width: 120px;
+}
+
 th {
   background: #eee;
   position: sticky;
   top: 0;
   z-index: 2;
 }
+
+/* ===== INPUTS ===== */
 input[type="number"] {
   width: 3.5rem;
   padding: 6px;
@@ -68,7 +89,7 @@ input[type="number"] {
   border: 1px solid #ccc;
 }
 
-
+/* Remove setas */
 .qtd-input,
 .qtd-input2 {
   appearance: none;
@@ -82,11 +103,14 @@ input[type="number"] {
   -webkit-appearance: none;
   margin: 0;
 }
+
+/* ===== CHECKBOX ===== */
 input[type="checkbox"] {
   transform: scale(1.5);
   cursor: pointer;
 }
 
+/* ===== STATUS ===== */
 tr.recebido {
   background-color: #8bf08b;
 }
@@ -109,6 +133,9 @@ tr.recebido {
   color: #04b631;
 }
 
+/* =====================
+   TABLET
+===================== */
 @media (min-width: 768px) {
   body {
     padding: 15px;
@@ -128,21 +155,11 @@ tr.recebido {
   td {
     font-size: 14px;
   }
-} 
-
-@media (max-width: 767px) {
-  table {
-    font-size: 14px;
-  }
-
-  td:first-child,
-  th:first-child {
-    text-align: left;
-    min-width: 120px;
-  }
 }
 
-
+/* =====================
+   DESKTOP
+===================== */
 @media (min-width: 1024px) {
   .fornecedor {
     padding: 15px;
@@ -159,6 +176,7 @@ tr.recebido {
   }
 }
 
+/* ===== FOOTER ===== */
 .footer {
   margin-top: 20px;
   padding: 12px;
