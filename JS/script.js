@@ -45,9 +45,16 @@
     }
 
     function atualizarCor(linha, recebido) {
-      linha.classList.remove('pendente', 'recebido');
-      linha.classList.add(recebido ? 'recebido' : 'pendente');
-    }
+  const inputs = linha.querySelectorAll('.qtd-input, .qtd-input2');
+
+  linha.classList.remove('pendente', 'recebido');
+  linha.classList.add(recebido ? 'recebido' : 'pendente');
+
+  inputs.forEach(input => {
+    input.classList.toggle('input-ok', recebido);
+  });
+}
+
 
     function atualizarStatus() {
       const total = document.querySelectorAll('tr[data-id]').length;
