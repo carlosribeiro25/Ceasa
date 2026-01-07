@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/index.css">
+  <title>Controle de Compras</title>
+</head>
+
+<body>
+  <div class="content-head">
+    <input type="date" name="date" class="date">
+    <div class="title">Ceasa</div>
+  </div>
+  <div class="fornecedor" data-fornecedor="Fornecedor B">
+    <h3>Galpão das Frutas</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>UND</th>
+          <th>D 1</th>
+          <th>D 2</th>
+          <th>Recebido</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr data-id="1">
+          <td>Abacaxi</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="2">
+          <td>Banana</td>
+          <td>Cento</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="3">
+          <td>Banana p/doce</td>
+          <td>Cento</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="4">
+          <td>Limão Ciciliano</td>
+          <td>KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="5">
+          <td>Laranga M</td>
+          <td>S/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="6">
+          <td>Manga Tommy</td>
+          <td>S/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="7">
+          <td>Coco seco</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="8">
+          <td>Abacate</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="9">
+          <td>Macacujá</td>
+          <td>CX/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+      </tbody>
+    </table>
+      <h3>Distribuidor</h3>
+    <table>
+      <thead>
+        
+      </thead>
+
+      <tbody>
+        <tr data-id="10">
+          <td>Kiwi</td>
+          <td>Cx/9KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="11">
+          <td>Morango</td>
+          <td>BDJS</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="12">
+          <td>Maça Nacional</td>
+          <td>Cx/18KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="13">
+          <td>Maça verde</td>
+          <td>SC C/18KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="14">
+          <td>Limão paulista</td>
+          <td>SC C/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="15">
+          <td>Batata Inglesa</td>
+          <td>SC C/50KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="16">
+          <td>Cebola branca</td>
+          <td>SC C/20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="17">
+          <td>Cebola roxa</td>
+          <td>SC C/20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="18">
+          <td>Cenoura Minas</td>
+          <td>CX C/20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="19">
+          <td>Beterraba G</td>
+          <td>SC C/20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="20">
+          <td>Repolho</td>
+          <td>Cx C/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="21">
+          <td>Reploho roxo</td>
+          <td>Cx C/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+         <tr data-id="22">
+          <td>Alho médio</td>
+          <td>SC C/10KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Galpão da melancia</h3>
+    <table>
+      <tbody>
+        <tr data-id="23">
+          <td>Jerimum caboclo</td>
+          <td>Cx/23KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="24">
+          <td>Melancia baby</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="25">
+          <td>Mamão formosa</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="26">
+          <td>Mamão verde</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+      </tbody>
+    </table>
+     <h3>Galpão do Tomate</h3>
+    <table>
+      <tbody>
+        <tr data-id="27">
+          <td>Pimentão Verde</td>
+          <td>Cx/12KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="28">
+          <td>Tomate salada</td>
+          <td>Cx/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="29">
+          <td>Tomate cajá</td>
+          <td>Cx/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="30">
+          <td>Chuchu</td>
+          <td>Cx/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <h3>Galpão do produtor</h3>
+      <tbody>
+        <tr data-id="31">
+          <td>Maxixe</td>
+          <td>Cx/15KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="32">
+          <td>Quiabo </td>
+          <td>Cx/10KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="33">
+          <td>Beringela</td>
+          <td>Cx/15KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="34">
+          <td>Abobrinha</td>
+          <td>Cx/20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="35">
+          <td>Pepino</td>
+          <td>Cx/23KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="36">
+          <td>Acelga</td>
+          <td>Cx/9KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="37">
+          <td>Vargem palito</td>
+          <td>Cx/15KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="38">
+          <td>Pimentão color</td>
+          <td>Cx/25KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="39">
+          <td>Salsão</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="40">
+          <td>Alho poró</td>
+          <td>UND</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="41">
+          <td>Gengibre</td>
+          <td>KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="42">
+          <td>Feijão verde</td>
+          <td>PCT 1KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="43">
+          <td>Tomate sereja</td>
+          <td>Cx 28KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+        <tr data-id="44">
+          <td>Pimenta d/moça</td>
+          <td>PCT 1KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+          <tr data-id="45">
+          <td>Macaxeira</td>
+          <td>CX 20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+          <tr data-id="46">
+          <td>Batata doce</td>
+          <td>CX 20KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+          <tr data-id="47">
+          <td>Mandioquinha</td>
+          <td>CX</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+
+          <tr data-id="48">
+          <td>Inhame</td>
+          <td>KG</td>
+          <td><input type="number" class="qtd-input"></td>
+          <td><input type="number" class="qtd-input2"></td>
+          <td><input type="checkbox" class="check-recebido"></td>
+        </tr>
+      </tbody>
+    </table>
+    <div id="status" class="status"></div>
+  </div>
+  <footer class="footer">
+   <p class="content-footer">© <span id="year"></span> Controle de Compras. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="JS/script.js"></script>
+  <script src="JS/theme-togle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+</body>
+
+</html>
