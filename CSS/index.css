@@ -132,7 +132,7 @@ tr.recebido {
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .fornecedor {
     padding: 15px;
   }
@@ -146,20 +146,6 @@ tr.recebido {
   input[type="number"] {
     width: 80px;
   }
-}
-
-/* .footer {
-  background-color: black;
-  width: 100%;
-  height: 3rem;
-  border-radius: 0.4rem;
-  text-align: center;
-  padding: 0.10rem;
-}
-
-.content-footer{
-  color: white;
-  
 } */
 
 .footer {
