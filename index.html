@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="CSS/index.css">
   <title>Controle de Compras</title>
 </head>
-
 <body>
   <div class="content-head">
     <input type="date" name="date" class="date">
@@ -16,7 +15,8 @@
   </div>
   <div class="fornecedor" data-fornecedor="Fornecedor B">      
     <h3 class="id-fornecedor">Galpão das Frutas</h3>
-    <table>
+    <div class="table-wrapper">
+      <table>
       <thead>
         <tr class="header-table">
           <th>Produto</th>
@@ -101,12 +101,11 @@
         </tr>
       </tbody>
     </table>
+    </div>
+    
       <h3 class="id-fornecedor">Distribuidor</h3>
-    <table>
-      <thead>
-        
-      </thead>
-
+      <div class="table-wrapper">
+         <table>
       <tbody>
         <tr data-id="10">
           <td>Kiwi</td>
@@ -213,9 +212,11 @@
         </tr>
       </tbody>
     </table>
-
-    <h3 class="id-fornecedor" >Galpão da melancia</h3>
-    <table>
+    </div>
+   
+    <h3 class="id-fornecedor">Galpão da melancia</h3>
+    <div class="table-wrapper">
+       <table>
       <tbody>
         <tr data-id="23">
           <td>Jerimum caboclo</td>
@@ -250,7 +251,7 @@
         </tr>
       </tbody>
     </table>
-     <h3 class="id-forneced">Galpão do Tomate</h3>
+     <h3 class="id-fornecedor">Galpão do Tomate</h3>
     <table>
       <tbody>
         <tr data-id="27">
@@ -286,9 +287,11 @@
         </tr>
       </tbody>
     </table>
-
-    <table>
-      <h3 class="id-fornecedor">Galpão do produtor</h3>
+    </div>
+   
+    <h3 class="id-fornecedor">Galpão do produtor</h3>
+    <div class="table-wrapper">
+      <table>
       <tbody>
         <tr data-id="31">
           <td>Maxixe</td>
@@ -425,7 +428,6 @@
           <td><input type="number" class="qtd-input2"></td>
           <td><input type="checkbox" class="check-recebido"></td>
         </tr>
-
           <tr data-id="48">
           <td>Inhame</td>
           <td>KG</td>
@@ -435,6 +437,8 @@
         </tr>
       </tbody>
     </table>
+    </div>
+    
     <div id="status" class="status"></div>
   </div>
   <footer class="footer">
@@ -442,8 +446,6 @@
   </footer>
 
   <script src="JS/script.js"></script>
-  <script src="JS/theme-togle.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 </body>
 

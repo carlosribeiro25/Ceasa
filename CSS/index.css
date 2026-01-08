@@ -13,18 +13,16 @@ body {
 
 .title {
   font-size: large;
-  font-weight: 700;
-  top: 3px;
+  font-weight: 600;
+  top: 5px;
   padding: 4px;
 }
 
 .content-head {
-  
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   border: none;
-  margin-bottom: 8px;
-  height: auto;         
+  margin-bottom: 2px;        
 }
 
 .date {
@@ -53,26 +51,24 @@ body {
 }
 
 .id-fornecedor {
+    margin-top: 6px;
     text-align: center;
     background-color: #cb4c59;
     padding: 4px;
     color: white;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 table {
   width: 100%;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
   border-collapse: collapse;
-  margin-top: 8px;
+  margin: auto;
+  margin-top: 6px;
   -webkit-overflow-scrolling: touch;
 }
 
 th,
 td {
-  padding: 10px 6px;
-  border-bottom: 1px solid #f6f4f4;
+  padding: 1px 6px;
   text-align: center;
   font-size: 15px;
 }
@@ -83,22 +79,30 @@ th:first-child {
   min-width: 120px;
 }
 
+td:last-child {
+  justify-content: center;
+  align-items: center;
+  min-width: 20px;
+  padding: 10px;
+}
+
 th {
   background: #434141;
-  position: sticky;
   border: 1px solid;
   color: #f6f1f1;
   padding: 10px;
   top: 4px;
+  border-radius: 0.3rem;
   z-index: 2;
 }
 
 input[type="number"] {
-  width: 3.5rem;
-  padding: 4px;
+  width: 2.5rem;
+  text-align: center;
+  padding: 2px;
   font-size: 16px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: none;
 }
 
 .qtd-input,
@@ -134,6 +138,8 @@ input[type="number"] {
 input[type="checkbox"] {
   transform: scale(1.5);
   cursor: pointer;
+  accent-color: #28a745;
+
 }
 
 tr.recebido {
@@ -176,7 +182,7 @@ tr.recebido {
   }
 
   .date {
-    width: auto;
+    width: 100%;
   }
 
   th,
