@@ -109,6 +109,9 @@ O aplicativo acompanha os seguintes produtos do CEASA:
 
 *Nota: A lista pode ser expandida editando o arquivo `index.html`*
 
+
+<img width="659" height="685" alt="Captura de tela 2026-01-20 001453" src="https://github.com/user-attachments/assets/e4afaeef-3a2e-49cb-9026-87c42e33a0b1" />
+
 ---
 
 ## 💾 Armazenamento de Dados
