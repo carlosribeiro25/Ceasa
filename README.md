@@ -1,6 +1,9 @@
 # Controle de Compras - CEASA 🛒
 
-Um aplicativo web para gerenciar e controlar o recebimento de produtos agrícolas do CEASA (Centrais de Abastecimento), permitindo rastreamento de compras e status de entrega de múltiplos fornecedores.
+Um aplicação web para mobile com o objetivo de gerenciar e controlar o recebimento de produtos agrícolas do CEASA (Centrais de Abastecimento).Criado com a finalidade de substituir o uso da folha em papel, permitindo o controle, recebimento de mercadorias e status de entrega de múltiplos fornecedores, para o abastecimento  de dois restaurantes. 
+
+##  D1 = Divina 1 (Primeiro restaurante).
+##  D2 = Divina 2 (Segundo restaurante).
 
 ---
 
@@ -225,3 +228,5 @@ Este projeto é fornecido como está, para uso em gerenciamento de compras do CE
 ---
 
 **Desenvolvido para otimizar o controle de recebimento de produtos agrícolas! 🌾**
+
+Create by me Wilson Carlos!!
