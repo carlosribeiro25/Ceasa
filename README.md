@@ -232,4 +232,4 @@ Este projeto é fornecido como está, para uso em gerenciamento de compras do CE
 
 **Desenvolvido para otimizar o controle de recebimento de produtos agrícolas! 🌾**
 
-Create by me Wilson Carlos!!
+Created by me Wilson Carlos!!
